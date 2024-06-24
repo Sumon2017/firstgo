@@ -9,7 +9,7 @@ import (
 )
 
 func main(){
-  fmt.Println("yes")
+  fmt.Println("program started")
   ch := make(chan os.Signal, 1)
   signal.Notify(ch , syscall.SIGINT , syscall.SIGTERM)
   router := http.NewServeMux()
