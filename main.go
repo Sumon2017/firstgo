@@ -30,8 +30,8 @@ func main(){
 }
 
 func hd1(w http.ResponseWriter , r *http.Request){
-  w.Write([]byte("hello from golang"))
+  w.Write([]byte("Hello from golang"))
 }
 func hd2(w http.ResponseWriter , r *http.Request){
-  w.Write([]byte("hello from sumon"))
+  w.Write([]byte("Hello from sumon"))
 }
